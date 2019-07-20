@@ -1,0 +1,1297 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/index_style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Travelco.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+
+
+                <li class="nav-item active">
+                    <a class="nav-link nav_link nav-home" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item drop-down">
+                    <a class="nav-link nav_link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Hotel
+                    </a>
+                    <div class="dropdown_content" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item nav-hotel" href="#">Hotel Details</a>
+                        <a class="dropdown-item nav-hotel" href="#">Rooms Details</a>
+                        <a class="dropdown-item nav-hotel" href="#">Single House Details</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item nav-hotel" href="#">Search Map</a>
+                    </div>
+                </li>
+
+                <li class="nav-item drop-down">
+                    <a class="nav-link nav_link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tour
+                    </a>
+                    <div class="dropdown_content" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item nav-tour" href="#">Tour Detail 1</a>
+                        <a class="dropdown-item nav-tour" href="#">Tour Detail 2</a>
+                        <a class="dropdown-item nav-tour" href="#">Tour Detail 3</a>
+                    </div>
+                </li>
+
+                <li class="nav-item drop-down">
+                    <a class="nav-link nav_link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Activities
+                    </a>
+                    <div class="dropdown_content" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item nav-activi" href="#">Detail Activity 1</a>
+                        <a class="dropdown-item nav-activi" href="#">Detail Activity 2</a>
+                        <a class="dropdown-item nav-activi" href="#">Detail Activity 3</a>
+                        <a class="dropdown-item nav-activi" href="#">Detail Activity 4</a>
+                    </div>
+                </li>
+
+                <li class="nav-item drop-down">
+                    <a class="nav-link nav_link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pages
+                    </a>
+                    <div class="dropdown_content" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item nav-about" href="#">About Us</a>
+                        <a class="dropdown-item nav-con" href="#">Contact Us</a>
+
+                    </div>
+                </li>
+
+                <div class="nav_register">
+                    <li class="nav-item">
+                        <a class="nav-link nav_link" href="signup.html">SignUp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav_link" href="#" data-toggle="modal" data-target="#exampleModal">LogIn</a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <!------------------------ MOdal -------------------------------------->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login Now !</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <label>UserName Or Email</label>
+                    <input type="text" class="form-control w-75">
+                    <label>Password</label>
+                    <input type="password" class="form-control w-75">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------------------->
+
+    <header>
+        <overlay></overlay>
+        <img src="images/5cb9ee0cbfa9e.png">
+        <div class="participation">
+            <button class="btn btn-light btn-off">Participation Offers</button>
+        </div>
+        <div class="participation-coupons">
+            <button class="btn btn-info btn-cop">Check Coupons</button>
+        </div>
+        <div class="header-info">
+            <h1>Hello There !</h1>
+            <h4>Where Would You Like To Go?</h4>
+        </div>
+
+
+
+
+        <div class="search-bar">
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Hotel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Tour</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Activity</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                    <button class="btn btn-light search-btn1">
+                        <div class="icon-search"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-search">
+                            Destination<br>
+                            Where are you going?</div>
+                    </button>
+                    <div class="search-content1">
+                        <ul>
+
+                            <li><input class="input-days1" type="checkbox" name="day" value="day"><label>California</label></li>
+                            <li><input class="input-days1" type="checkbox" name="day" value="day"><label>Los Angeles</label></li>
+                            <li><input class="input-days1" type="checkbox" name="day" value="day"><label>Nevada</label></li>
+                            <li><input class="input-days1" type="checkbox" name="day" value="day"><label>New Jersy</label></li>
+                            <li><input class="input-days1" type="checkbox" name="day" value="day"><label>Delawaro</label></li>
+                            <li><input class="input-days1" type="checkbox" name="day" value="day"><label>NewYork</label></li>
+                            <li><input class="input-days1" type="checkbox" name="day" value="day"><label>SanFrancisco</label></li>
+
+                        </ul>
+                    </div>
+
+
+                    <button class="btn btn-light search-btn2">
+                        <div class="icon-search"><i class="fas fa-calendar-alt"></i></div>
+                        <div class="info-search">
+                            Check In - Out<br>
+                            Choose Your Appointments</div>
+                    </button>
+                    <div class="search-content2">
+                        <ul>
+                            <li><input class="input-days-1" type="checkbox" name="day" value="day"><label>Sunday</label></li>
+                            <li><input class="input-days-1" type="checkbox" name="day" value="day"><label>Monday</label></li>
+                            <li><input class="input-days2-1" type="checkbox" name="day" value="day"><label>Tuesday</label></li>
+                            <li><input class="input-days-1" type="checkbox" name="day" value="day"><label>Wednesday</label></li>
+                            <li><input class="input-days-1" type="checkbox" name="day" value="day"><label>Thursday</label></li>
+                            <li><input class="input-days-1" type="checkbox" name="day" value="day"><label>Friday</label></li>
+                            <li><input class="input-days-1" type="checkbox" name="day" value="day"><label>Saturday</label></li>
+                        </ul>
+                    </div>
+
+
+                    <button class="btn btn-light search-btn3">
+                        <div class="icon-search"><i class="fas fa-user-friends"></i></div>
+                        <div class="info-search">
+                            Guests<br>
+                            Choose Number of Guests</div>
+                    </button>
+                    <div class="search-content3">
+                        <ul>
+                            <li><a href="#">Rooms ?</a></li>
+                            <li><a href="#">Adults ?</a></li>
+                            <li><a href="#">Children ?</a></li>
+                        </ul>
+                    </div>
+
+
+                    <button class="btn btn-info search-btn4">
+                        Search Now
+                    </button>
+
+                </div>
+
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                    <button class="btn btn-light search-btn1">
+                        <div class="icon-search"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-search">
+                            Destination<br>
+                            Where are you going?</div>
+                    </button>
+                    <div class="search-content1">
+                        <ul>
+                            <li><input class="input-days2" type="checkbox" name="day" value="day"><label>California</label></li>
+                            <li><input class="input-days2" type="checkbox" name="day" value="day"><label>Los Angeles</label></li>
+                            <li><input class="input-days2" type="checkbox" name="day" value="day"><label>Nevada</label></li>
+                            <li><input class="input-days2" type="checkbox" name="day" value="day"><label>New Jersy</label></li>
+                            <li><input class="input-days2" type="checkbox" name="day" value="day"><label>Delawaro</label></li>
+                            <li><input class="input-days2" type="checkbox" name="day" value="day"><label>NewYork</label></li>
+                            <li><input class="input-days2" type="checkbox" name="day" value="day"><label>SanFrancisco</label></li>
+                        </ul>
+                    </div>
+
+
+                    <button class="btn btn-light search-btn2">
+                        <div class="icon-search"><i class="fas fa-calendar-alt"></i></div>
+                        <div class="info-search">
+                            <p id="tour">From - To - ( 4 Days )</p>
+                        </div>
+                    </button>
+                    <div class="search-content2">
+                        <ul>
+                            <li><input class="input-days" type="checkbox" name="day" value="day"><label>Sunday</label></li>
+                            <li><input class="input-days" type="checkbox" name="day" value="day"><label>Monday</label></li>
+                            <li><input class="input-days" type="checkbox" name="day" value="day"><label>Tuesday</label></li>
+                            <li><input class="input-days" type="checkbox" name="day" value="day"><label>Wednesday</label></li>
+                            <li><input class="input-days" type="checkbox" name="day" value="day"><label>Thursday</label></li>
+                            <li><input class="input-days" type="checkbox" name="day" value="day"><label>Friday</label></li>
+                            <li><input class="input-days" type="checkbox" name="day" value="day"><label>Saturday</label></li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-light search-btn4">
+                        Search Now
+                    </button>
+                </div>
+
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+                    <button class="btn btn-light search-btn1">
+                        <div class="icon-search"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-search">
+                            Destination<br>
+                            Where are you going?</div>
+                    </button>
+                    <div class="search-content1">
+                        <ul>
+                            <li><input class="input-days3" type="checkbox" name="day" value="day"><label>California</label></li>
+                            <li><input class="input-days3" type="checkbox" name="day" value="day"><label>Los Angeles</label></li>
+                            <li><input class="input-days3" type="checkbox" name="day" value="day"><label>Nevada</label></li>
+                            <li><input class="input-days3" type="checkbox" name="day" value="day"><label>New Jersy</label></li>
+                            <li><input class="input-days3" type="checkbox" name="day" value="day"><label>Delawaro</label></li>
+                            <li><input class="input-days3" type="checkbox" name="day" value="day"><label>NewYork</label></li>
+                            <li><input class="input-days3" type="checkbox" name="day" value="day"><label>SanFrancisco</label></li>
+                        </ul>
+                    </div>
+
+
+                    <button class="btn btn-light search-btn2">
+                        <div class="icon-search"><i class="fas fa-calendar-alt"></i></div>
+                        <div class="info-search">
+                            Check In - Out<br>
+                            Choose Your Appointments</div>
+                    </button>
+                    <div class="search-content2">
+                        <ul>
+                            <li><input class="input-days-3" type="checkbox" name="day" value="day"><label>Sunday</label></li>
+                            <li><input class="input-days-3" type="checkbox" name="day" value="day"><label>Monday</label></li>
+                            <li><input class="input-days-3" type="checkbox" name="day" value="day"><label>Tuesday</label></li>
+                            <li><input class="input-days-3" type="checkbox" name="day" value="day"><label>Wednesday</label></li>
+                            <li><input class="input-days-3" type="checkbox" name="day" value="day"><label>Thursday</label></li>
+                            <li><input class="input-days-3" type="checkbox" name="day" value="day"><label>Friday</label></li>
+                            <li><input class="input-days-3" type="checkbox" name="day" value="day"><label>Saturday</label></li>
+                        </ul>
+                    </div>
+
+
+                    <button class="btn btn-light search-btn3">
+                        <div class="icon-search"><i class="fas fa-user-friends"></i></div>
+                        <div class="info-search">
+                            Guests<br>
+                            Choose Number of Guests</div>
+                    </button>
+                    <div class="search-content3">
+                        <ul>
+                            <li><a href="#">Rooms ?</a></li>
+                            <li><a href="#">Adults ?</a></li>
+                            <li><a href="#">Children ?</a></li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-light search-btn4">
+                        Search Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="section2">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="special-offers">
+                    <img class="spec-img" src="images/5cbf8a97e136d.png">
+                    <div class="hint">
+                        <P>Holiday Sale</P>
+                    </div>
+                    <div class="special-info">
+                        <h2>Special Offers</h2>
+                        <p>Find Your Perfect Hotels Get the best prices on 20,000+ properties the best prices on</p>
+                        <button class="btn btn-outline-light">See Deals</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="newsletters">
+                    <img class="specc-img" src="images/18949.jpg">
+                    <div class="section2-overlay"></div>
+                    <i class="far fa-envelope-open"></i>
+                    <div class="news">
+                        <h2>NewsLetters</h2>
+                        <p>Join for free and get our tailored newsletters full of hot travel deals.</p>
+                        <button class="btn btn-outline-light"><a style="text-decoration: none;color: #17BEBB " href="signup.html">SignUp</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="newsletters">
+                    <img class="specc-img" src="images/venice-gondola-boat-vessel-craft-canal-architecture-city-tourism-travel-water.jpg">
+                    <div class="section2-overlay"></div>
+                    <i class="far fa-sticky-note"></i>
+                    <div class="news">
+                        <h2>Travel Tips</h2>
+                        <p>Tips from our travel experts to make your next trip even better.</p>
+                        <button class="btn btn-outline-light">Get Inspired</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-------------------------------------------------------------------------------------->
+
+
+
+
+    <!-------------------------------------------------------------------------------->
+
+    <section class="section4">
+        <div class="title-section4">
+            <h2>Trending: </h2>
+            <div class="btn-group">
+                <button type="button" class="btn btn-danger" id="btn1">Hotel</button>
+                <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+
+                <div class="dropdown-menu">
+                    <ul class="nav nav-tabs tabs" id="myTab" role="tablist">
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="Hotel-tab" data-toggle="tab" href="#Hotel" role="tab" aria-controls="Hotel" aria-selected="false">Hotel</a>
+                        </li>
+
+                        <li class="dropdown-divider"></li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="Activity-tab" data-toggle="tab" href="#Activity" role="tab" aria-controls="Activity" aria-selected="false">Activity</a>
+                        </li>
+
+                        <li class="dropdown-divider"></li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="t-tab" data-toggle="tab" href="#t" role="tab" aria-controls="t" aria-selected="false">Tour</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="tab-content" id="myTabContent">
+
+            <div class="tab-pane fade show active" id="Hotel" role="tabpanel" aria-labelledby="Hotel-tab">
+
+                <div class="row">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/hotel9.jpg">
+                            </div>
+                            <div class="card-body">
+                                <h3>Crowne Plaza Hotel</h3>
+                                <h5>$<span class="text-center">265</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/hotel10.jpg">
+                            </div>
+                            <div class="card-body">
+                                <h3>Western Plus</h3>
+                                <h5>$<span class="text-center">250</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/hotel1.jpg">
+                            </div>
+                            <div class="card-body">
+                                <h3>Dylan Hotel</h3>
+                                <h5>$<span class="text-center">650</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/hotel2.jpeg">
+                            </div>
+                            <div class="card-body">
+                                <h3>Edwardian Kenil Hotel</h3>
+                                <h5>$<span class="text-center">120</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/hotel3.jpg">
+                            </div>
+                            <div class="card-body">
+                                <h3>Envision Hotel</h3>
+                                <h5>$<span class="text-center">320</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/hotel4.jpg">
+                            </div>
+                            <div class="card-body">
+                                <h3>Grand Desert Resort</h3>
+                                <h5>$<span class="text-center">430</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/hotel5.jpg">
+                            </div>
+                            <div class="card-body">
+                                <h3>Ascot Opera Hotel</h3>
+                                <h5>$<span class="text-center">760</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/hotel6.jpg">
+                            </div>
+                            <div class="card-body">
+                                <h3>Grand Desert Resort</h3>
+                                <h5>$<span class="text-center">380</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/hotel7.jpg">
+                            </div>
+                            <div class="card-body">
+                                <h3>Parian Holiday Villas</h3>
+                                <h5>$<span class="text-center">490</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/hotel8.jpg">
+                            </div>
+                            <div class="card-body">
+                                <h3>Hamora Venis Hotel</h3>
+                                <h5>$<span class="text-center">290</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn">Let's Go</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="Activity" role="tabpanel" aria-labelledby="Activity-tab">
+
+
+                <div class="row">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9c9100f80d.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>kalimora trips & Activity</h3>
+                                <h5>$<span class="text-center">265</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9cacbf2a3e.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>Tripiano Activities</h3>
+                                <h5>$<span class="text-center">250</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9d773e32a2.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>Paramount Ranch</h3>
+                                <h5>$<span class="text-center">650</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9d7126e78b.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>DownTown Los Angeles</h3>
+                                <h5>$<span class="text-center">120</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9e56307f47.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>National Activities</h3>
+                                <h5>$<span class="text-center">320</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9d747d8a35.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>Grand Desert </h3>
+                                <h5>$<span class="text-center">430</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9d773e32a2.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>Ascot Opera </h3>
+                                <h5>$<span class="text-center">760</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9caa19dbcd.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>Grand Desert Activity</h3>
+                                <h5>$<span class="text-center">380</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/valley-of-fire-1303595_640.jpg">
+                            </div>
+                            <div class="card-body">
+                                <h3>Parian Holiday </h3>
+                                <h5>$<span class="text-center">490</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9d5d8e5a28.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>Hamora Activities</h3>
+                                <h5>$<span class="text-center">290</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="tab-pane fade" id="t" role="tabpanel" aria-labelledby="t-tab">
+
+                <div class="row">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9e5030a015.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>Wonderful Summer</h3>
+                                <h5>$<span class="text-center">265</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9c9d50f6a4.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>Modern Trip Sea</h3>
+                                <h5>$<span class="text-center">250</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9edd6bb03d.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>American Tripiano</h3>
+                                <h5>$<span class="text-center">650</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9caa19dbcd.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>Express Trips</h3>
+                                <h5>$<span class="text-center">120</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9c9100f80d.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>Grouping day Trips</h3>
+                                <h5>$<span class="text-center">320</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9e56307f47.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>South & West Trips</h3>
+                                <h5>$<span class="text-center">430</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9d773e32a2.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>Different Trips</h3>
+                                <h5>$<span class="text-center">760</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9caa19dbcd.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>Grand Desert Resort</h3>
+                                <h5>$<span class="text-center">380</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/valley-of-fire-1303595_640.jpg">
+                            </div>
+                            <div class="card-body">
+                                <h3>Parian Holiday Trips</h3>
+                                <h5>$<span class="text-center">490</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <img src="images/5cb9d5d8e5a28.png">
+                            </div>
+                            <div class="card-body">
+                                <h3>Hamora Trips</h3>
+                                <h5>$<span class="text-center">290</span></h5>
+                                <p><i class="price-text-color fa fa-star"></i>
+                                    <i class="price-text-color fa fa-star"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                    <i class="far fa-star text-danger"></i>
+                                </p>
+                                <p><a href="#">See Latest Reviews</a></p>
+                                <button class="btn btn-info">Let's Go</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------------------------------------------------------------------->
+
+    <div class="section6">
+
+        <div class="row">
+            <div class="col-md-2">
+                <div class="aboutus-container">
+                    <div class="Aboutus-div">A</div>
+                    <div class="Aboutus-div">B</div>
+                    <div class="Aboutus-div">O</div>
+                    <div class="Aboutus-div">U</div>
+                    <div class="Aboutus-div">T</div>
+                    <div class="Aboutus-div">-</div>
+                    <div class="Aboutus-div">U</div>
+                    <div class="Aboutus-div">S</div>
+                </div>
+            </div>
+
+
+            <div class="col-md-10">
+                <div class="aboutus-info">
+                    <i class="fas fa-mug-hot"></i>
+                    <h2>Know More Things About<span> Travelco.</span></h2>
+                    <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermen</p>
+                    <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermen</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="title-topdestination">
+        <h2>Top Destinations</h2>
+    </div>
+    <section class="section3">
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="topdestination-div">
+                    <img src="images/malibu-2080075_640.jpg">
+                    <div class="destination-more"><a href="#">Know More About Destination</a></div>
+                    <div class="destination-title">
+                        <h2>NEVADA</h2>
+                    </div>
+                    <div class="destination-links">
+                        <ul>
+                            <li><a href="#">17 Hotel</a></li>
+                            <li><a href="#">20 Tours</a></li>
+                            <li><a href="#">17 Activities</a></li>
+                        </ul>
+                    </div>
+                    <div class="destination-overlay"></div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="topdestination-div">
+                    <img src="images/ellis-island-4023775_640.jpg">
+                    <div class="destination-more"><a href="#">Know More About Destination</a></div>
+                    <div class="destination-title">
+                        <h2>LOS ANGELES</h2>
+                    </div>
+                    <div class="destination-links">
+                        <ul>
+                            <li><a href="#">12 Hotel</a></li>
+                            <li><a href="#">28 Tours</a></li>
+                            <li><a href="#">20 Activities</a></li>
+                        </ul>
+                    </div>
+                    <div class="destination-overlay"></div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="topdestination-div">
+                    <img src="images/polynesia-3021072_640.jpg">
+                    <div class="destination-more"><a href="#">Know More About Destination</a></div>
+                    <div class="destination-title">
+                        <h2>CALIFORNIA</h2>
+                    </div>
+                    <div class="destination-links">
+                        <ul>
+                            <li><a href="#">17 Hotel</a></li>
+                            <li><a href="#">24 Tours</a></li>
+                            <li><a href="#">23 Activities</a></li>
+                        </ul>
+                    </div>
+                    <div class="destination-overlay"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="topdestination-div">
+                    <img src="images/5cb9cacbf2a3e.png">
+                    <div class="destination-more"><a href="#">Know More About Destination</a></div>
+                    <div class="destination-title">
+                        <h2>VIRGINIA</h2>
+                    </div>
+                    <div class="destination-links">
+                        <ul>
+                            <li><a href="#">15 Hotel</a></li>
+                            <li><a href="#">22 Tours</a></li>
+                            <li><a href="#">19 Activities</a></li>
+                        </ul>
+                    </div>
+                    <div class="destination-overlay"></div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="topdestination-div">
+                    <img src="images/autumn-4099229_640.jpg">
+                    <div class="destination-more"><a href="#">Know More About Destination</a></div>
+                    <div class="destination-title">
+                        <h2>SAN FRANSISCO</h2>
+                    </div>
+                    <div class="destination-links">
+                        <ul>
+                            <li><a href="#">10 Hotel</a></li>
+                            <li><a href="#">24 Tours</a></li>
+                            <li><a href="#">23 Activities</a></li>
+                        </ul>
+                    </div>
+                    <div class="destination-overlay"></div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="topdestination-div">
+                    <img src="images/sunset-850873_640.jpg">
+                    <div class="destination-more"><a href="#">Know More About Destination</a></div>
+                    <div class="destination-title">
+                        <h2>NEW JERSEY</h2>
+                    </div>
+                    <div class="destination-links">
+                        <ul>
+                            <li><a href="#">17 Hotel</a></li>
+                            <li><a href="#">25 Tours</a></li>
+                            <li><a href="#">23 Activities</a></li>
+                        </ul>
+                    </div>
+                    <div class="destination-overlay"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <div class="section7">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="prepare-div">
+                    <h2>Prepare Your Self Well</h2>
+                    <h4>Choose Your Favourite Destinations & Activities & Tours</h4>
+                    <p>Vivamus non tincidunt ligula. Sed interdum, tellus quis finibus consectetur, nisi ligula interdum nunc, non eleifend magna mi eget justo.
+                        Pellentesque vitae pretium lorem. Pellentesque eget tellus magna. Nullam luctus risus id ultricies laoreet. Vestibulum scelerisque consectetur dictum. Sed euismod consequat lorem eu iaculis. Donec eleifend justo et justo facilisis, ac vulputate dolor iaculis.</p>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="img-div">
+                    <img src="images/1940704.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--------------------------------------------------------------------------------------->
+    <section class="section5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 left">
+                    <div class="leftside">
+                        <i class="far fa-envelope-open"></i>
+                        <h3>Get Updates & More</h3>
+                        <p>Thoughtful thoughts to your inbox</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="rightside">
+                        <input type="email" class="form-control w-50" placeholder="Your Email">
+                        <button class="btn btn-info">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-left">
+
+                        <div class="needhelp">
+                            <h5>Need Help?</h5>
+                        </div>
+
+                        <div class="call">
+                            <p>Call US</p>
+                            <h5>+00 223 54 789</h5>
+                        </div>
+
+                        <div class="email">
+                            <p>Email For Us</p>
+                            <h5>Travelco@YourSite.com</h5>
+                        </div>
+
+                        <div class="FollowUs">
+                            <p>Follow US</p>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="footer-middle1">
+
+                        <div class="needhelp">
+                            <h5>Company</h5>
+                        </div>
+                        <div class="footer-list">
+                            <ul>
+                                <li>About Us</li>
+                                <li>Community Blog</li>
+                                <li>Rewards</li>
+                                <li>Work With Us</li>
+                                <li>Meet The Team</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="footer-middle1">
+
+                        <div class="needhelp">
+                            <h5>Support</h5>
+                        </div>
+                        <div class="footer-list">
+                            <ul>
+                                <li>Account</li>
+                                <li>Legal</li>
+                                <li>Contact</li>
+                                <li>Affillitate Program</li>
+                                <li>Privacy Policy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="loading-screen">
+        <div class="spinner"></div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl.autoplay.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
